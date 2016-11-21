@@ -40,7 +40,7 @@ class _DataBatcher(object):
         return len(self._data)
 
     @property
-    def progress(object):
+    def progress(self):
         return self._curr_idx * 1.0 / len(self._data)
                  
     
